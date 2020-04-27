@@ -1,0 +1,36 @@
+.primary {
+  background-color: #424242;
+  color: #ffffff;
+}
+
+.primary-button {
+  background-color: #424242;
+  color: #ffffff;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.primary-button:hover {
+  background-color: #fdd835;
+  color: #1b1b1b;
+} 
+
+.primary-text {
+  color: #424242;
+}
+
+.secondary-text {
+  color: #fdd835;
+}
+
+.secondary {
+  background-color: #fdd835;
+  border: none;
+}
+
+.secondary:hover {
+  border: #1b1b1b solid 1px;
+}
+

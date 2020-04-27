@@ -1,0 +1,13 @@
+.connection-link {
+  text-decoration: underline;
+  line-height: 1.5em;
+  display: initial;
+  background-color: rgba(143, 133, 49, 0.26);
+}
+
+.connection-link:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.596);
+  font-weight: bold;
+  font-size: 1.2em;
+}

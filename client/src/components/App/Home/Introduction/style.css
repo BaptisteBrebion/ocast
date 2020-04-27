@@ -1,0 +1,55 @@
+.introduction {
+  background-color: #ffffffde;
+  padding: 3em 3em 20em 0em;
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-position: 25% 40%;
+  background-size: 1600px;
+  background-image: url("/images/jeremy-yap-J39X2xX_8CQ-unsplash (1).jpg");
+}
+
+.introduction h2 {
+  background-size: 100px;
+  font-size: 2em; 
+  font-weight: bold;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, .02);
+  line-height: 1.4em;
+}
+
+.introduction p {
+  line-height: 1.4em;
+}
+
+.inscription-btn {
+  padding: 1em 0;
+}
+
+.introduction-connexion p {
+  display: initial;
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+@media (max-width: 500px) {
+  .introduction {
+    background-color: #010207;
+    padding: 1.2em;
+    width: 100vw;
+    height: 100vh;
+    background-position: 25% 200px;
+    background-size: 750px;
+  }
+
+  .introduction h2 {
+    line-height: 1.2em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  .introduction p {
+    line-height: 1.2em;
+  }
+
+  .inscription-btn {
+    padding: .8em;
+  }
+}

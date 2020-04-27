@@ -1,0 +1,22 @@
+
+
+#login-page {
+  margin: 30px auto;
+  min-height: 400px;
+  max-width: 500px;
+}
+
+#login-page .field {
+  width: 100%;
+}
+
+#login-page .password {
+  margin-bottom: 20px;
+  text-decoration: underline;
+  appearance: none;
+  border: none;
+}
+
+#login-page h2 {
+  margin-bottom: 3rem;
+}

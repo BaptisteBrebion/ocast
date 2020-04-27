@@ -1,0 +1,40 @@
+#search-result-main {
+  padding: 10px;
+}
+
+.search-result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.search-item-photo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-result-card {
+  width: calc(100% / 4 - 30px);
+  margin: 15px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media (max-width: 500px) {
+  .search-result .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

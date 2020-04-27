@@ -1,0 +1,34 @@
+.navbar {
+  min-height: 70px;
+  border-bottom: 1px solid white;
+}
+
+.navbar-item:hover {
+color: #fdd835;
+text-decoration: underline;
+text-decoration-color: #fdd835;
+}
+
+.say-hello {
+  margin: 27px;
+}
+
+.navbar-mobile {
+  width: 50%;
+}
+
+.navbar-burger {
+  margin-left: 0;
+}
+
+.navbar-item .notif {
+  right: 0.3rem;
+  top: 1.1rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.navbar-item h1 { 
+  font-size: 1.5em;
+  font-family: 'Monoton', cursive;
+}

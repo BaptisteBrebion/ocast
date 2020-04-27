@@ -1,0 +1,18 @@
+.contact-form {
+  min-height: 70vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.contact-form .field {
+  width: 80%;
+  min-height: 120px;
+}
+
+.contact-form ul {
+  text-align: left;
+}

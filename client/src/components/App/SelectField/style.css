@@ -1,0 +1,17 @@
+/* .search-field-select select {
+  width: 150px;
+  margin: 5px;
+} */
+.select {
+  padding-right: 4px;
+  margin-bottom: 2rem;
+  max-width: 200px;
+}
+
+select {
+  width: -webkit-fill-available !important;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  top: 122%;
+}

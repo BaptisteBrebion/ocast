@@ -1,0 +1,12 @@
+.search-input {
+  max-width: 50px;
+  margin: 0 5px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.search-field {
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+}

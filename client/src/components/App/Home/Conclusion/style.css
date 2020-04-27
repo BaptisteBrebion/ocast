@@ -1,0 +1,69 @@
+.conclusion {
+  background-color: white;
+  margin: -7em 6em 0;
+  padding: 2em;
+  text-align: center;
+}
+
+.conclusion h2 {
+  padding-bottom: 2em;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.conclusion h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+.conclusion p {
+  line-height: 1.2em;
+}
+
+.conclusion-choice {
+  width: 60%;
+  padding: 2em;
+  margin: 0 auto;
+  border: thick double black;
+}
+
+.conclusion-choice:hover {
+  border: thick double #fdd835;
+}
+
+.back-up {
+  font-weight: bold;
+}
+
+.back-up:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.conclusion-connection {
+  background-color: red;
+}
+
+@media (max-width: 500px) {
+  .conclusion {
+    margin: -4em 0;
+    padding: 1em;
+    width: 100%;
+  }
+
+  .conclusion h2 {
+    padding-bottom: 1.5em;
+    font-size: 1.2em;
+  }
+
+  .conclusion h3 {
+    font-size: 1em;
+  }
+
+  .conclusion-choice {
+    width: 75%;
+  }
+}

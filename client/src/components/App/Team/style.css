@@ -1,0 +1,77 @@
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px;
+}
+
+#team-section h2 {
+  margin-top: 30px;
+}
+
+.team-card {
+  width: 25%;
+}
+
+.team-card h4 {
+  text-decoration: underline;
+}
+
+.technos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 40px;
+  margin: auto;
+}
+
+#technos-section h2 {
+  margin-top: 80px;
+}
+
+.techno-card {
+  min-height: 284px;
+  width: calc(100% / 4 - 4rem);
+  margin: 30px;
+}
+
+.techno-card .card-content {
+  min-height: 284px;
+}
+
+.techno-logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+
+.image img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+@media (max-width: 500px) {
+  .team {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .team-card {
+    margin: 5px 0;
+    width: 90%;
+  }
+
+  .technos {
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .techno-card {
+    margin: 5px 0;
+    width: 90%;
+  }
+}
