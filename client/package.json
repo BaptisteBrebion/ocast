@@ -42,7 +42,7 @@
     "html-webpack-plugin": "*",
     "ignore-styles": "*",
     "markdown-loader": "^5.1.0",
-    "marked": "^0.8.2",
+    "marked": "^4.0.10",
     "mini-css-extract-plugin": "*",
     "mocha": "*",
     "optimize-css-assets-webpack-plugin": "*",
