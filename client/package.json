@@ -70,7 +70,7 @@
     "bulma-pageloader": "^0.3.0",
     "bulma-start": "^0.0.3",
     "framework7": "^5.5.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prop-types": "*",
     "react": "*",
     "react-bulma-components": "3.2.0",
