@@ -26,7 +26,7 @@
     "express": "^4.17.1",
     "express-session": "^1.17.0",
     "formidable": "^1.2.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.28",
     "pg": "^7.18.2",
     "sequelize": "^5.21.5",
